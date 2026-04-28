@@ -12,8 +12,7 @@ import {
   AnimatePresence
 } from "framer-motion";
 
-import img1 from "../assets/image1.png";
-import img2 from "../assets/image2.png";
+
 
 function useIsMobile(query = "(max-width: 768px)") {
   const [isMobile, setIsMobile] = useState(false);
@@ -37,21 +36,20 @@ export default function Projects() {
   const sceneRef = useRef(null);
   const isMobile = useIsMobile();
 
-  const projects = useMemo(() => [
-    {
-      title: "IIT Roorkee — Virtual Lab",
-      link: "https://github.com/Khushi-singhal8/VIRTUAL-LAB-",
-      bgColor: "#0f172a",
-      image: img1
-    },
-    {
-      title: "Plant Disease Detector",
-      link: "https://github.com/Khushi-singhal8/plant-disease-detector",
-      bgColor: "#111827",
-      image: img2
-    },
-    
-  ], []);
+  const projects = [
+  {
+    title: "IIT Roorkee — Virtual Lab",
+    link: "https://github.com/Khushi-singhal8/VIRTUAL-LAB-",
+    bgColor: "#0f172a",
+    image: "/image1.png"
+  },
+  {
+    title: "Plant Disease Detector",
+    link: "https://github.com/Khushi-singhal8/plant-disease-detector",
+    bgColor: "#111827",
+    image: "/image2.png"
+  }
+];
 
   const { scrollYProgress } = useScroll({
     target: sceneRef,
