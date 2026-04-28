@@ -22,7 +22,7 @@ I'm **Khushi Singhal**, a passionate **Frontend Developer** and **B.Tech Artific
 - 🎓 B.Tech AI @ Galgotias University (2023–2027)
 - 💼 Frontend Developer Intern @ IIT Roorkee — Virtual Mechanical Labs
 - 🌱 Currently exploring Three.js, React.js & AI-powered web apps
-- 📬 Reach me at **singhal.khushi391@gmail.com**
+- 📬 Reach me at **singhalkhushi198@gmail.com**
 
 ---
 
